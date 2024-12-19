@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+torch = "*"
+numpy = "*"
+scikit-learn = "*"
+keras = "*"
+optuna = "*"
+summy = "*"
+transformers = "*"
+python-dotenv = "*"
+mlflow = "*"
+fire = "*"
+tensorflow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
